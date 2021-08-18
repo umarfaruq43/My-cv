@@ -56,6 +56,10 @@ body {
   padding: 1rem;
 }
 
+.resume .resume_left .user_img {
+  height: 300px;
+  object-fit: cover;
+}
 .resume .resume_left .resume_content {
   padding: 0 2.5rem;
 }
