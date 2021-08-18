@@ -21,7 +21,7 @@
       <div class="resume_content">
         <div class="resume_item resume_info">
           <div class="title">
-            <p class="bold">Abdul Azeez Faruq</p>
+            <p class="bold" id="name"></p>
             <p class="regular">Frontend Web Developer</p>
           </div>
           <ul>
@@ -154,18 +154,27 @@
             </li>
           </ul>
         </div>
+        <div class="resume_item resume_skill">
+          <div class="title">
+            <p class="bold">Task From</p>
+          </div>
+          <a href="http://www.hng.com"> <img src="img/zurilogo.png" alt="">
+          </a>
+        </div>
+
       </div>
     </div>
+
     <div class="resume_right">
       <div class="resume_item resume_about">
         <div class="title">
           <p class="bold">About Me</p>
         </div>
         <p>
-          I'm a confident and passionate person with a genuine interest in learning and providing
-          solutions to problems. I am a very active, creative and goal-oriented Material science and engineering
+          I am a dependable person with a genuine interest in learning and providing
+          solutions to problems. I am a very active, creative and goal-oriented Material science engineer
           undergraduate
-          student with excellent communication and team playing skills. I seek an opportunity to contribute and
+          student with a good communication and team playing skill. I seek an opportunity to contribute and
           develop my career as a developer.</p>
       </div>
       <div class="resume_item resume_work">
@@ -221,7 +230,7 @@
             <div class="date">2019 - Present</div>
             <div class="info">
               <p class="semi-bold">Kwara State University</p>
-              <p>Bsc  Material Science and Engineering
+              <p>Bsc Material Science and Engineering
           </li>
           <br>
           <br>
@@ -250,6 +259,14 @@
     </div>
   </div>
   </div>
+  <script>
+    function printName(name) {
+      const nameBlock = document.querySelector("#name");
+      return (nameBlock.innerHTML = name);
+    }
+    printName("Abdul Azeez Faruq");
+
+  </script>
 </body>
 
 </html>
